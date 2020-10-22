@@ -1,58 +1,299 @@
 <html>
-<head>
-  </head>
-  <style>
-    img {
-     border-radius: 50%; 
-     
-      position:relative;
-    top:10%;
-    left:50%;
-     width: 30%;
-    }
-    .center {
-  margin: auto;
-  width: 60%;
- justify-content: center;
-      align-items: center
+    <head>
+        <style>
+          
 
+* {
+  margin: 0;
+  padding: 0;
 }
-   </style>
-  <body>
 
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background: aliceblue;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-    <div class="center">
-        <img src="myself.jpeg" alt="Avatar">
-    </div>
-    <div class="center">
-        <h3>Programmer/Analyst</h3>
-         <p>Andre H. C. Mamede</p>
-    </div>
-    <section>
-      <h2>
-      Summary
-      </h2>
-    </section>
-    
+  color: #fff;
+  height: 80vh;
+}
 
+.intro::after {
+  content: "";
+
+  position: fixed;
+  z-index: -999;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url(code-1839406_1920.jpeg);
+  background-repeat: no-repeat;
+  
+  background-size: 100vw 100vh;
+}
+
+.intro h1 {
+  padding: 0 50px;
+
+  border: solid;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  background: #fff;
+}
+
+.content p {
+  width: 500px;
+  
+    margin: 5%;
+  line-height: 30px;
+}
+  
+.wrapper {
+  /* Static Center Placement */
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  z-index: 1; /* Keep in front of background */
+  
+  /* General Content Styling */
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(245,245,245);
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 20%;
+  border: 2px solid;
+  padding: 2%;
+}  
+img {
+  border-radius: 50%;
+}
+.newspaper {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
+
+        </style>
+    </head>
+    <body>
+    <div class="intro">
+        <h1>ABSTRACT</h1>
+    </div>
+    <div class="content">
+        
+        <p class="text">
+       Industrial Automation Analyst.Studying Master of Electrical Engineering at Poli-USP (Research Line - Automation of
+Electrical Power Systems and Industrial Processes). Electronics technician (Manufacturing Automation modality) from SENAI 'Anchieta' school, Technologist in Industrial Automation from college ‘FATEC-SBC’, MBA - Industrial Automation at University of São Paulo Brazil - PECE-USP and English level C1 (Effective Operative Proficiency) in the "Common European Framework of Reference for Languages" scale.
+Expertise in development of automation software. Experience in projects, production, maintenance and calibration of electro-electronic equipment, preventive and corrective maintenance, quality control, production process control, electrical metrology and laboratory automation.
+        </p>
+    </div>
+
+    <div class="intro">
+        <h1>SKILLS AND INTEREST</h1>
+        
+       
+    </div>
+    <div class="content">
+        <p class="text">
+            <div class="newspaper" >
+            <UL>
+                <li>
+        Intermediate english - English level C1 (Effective Operative Proficiency) in the "Common European Framework of Reference for Languages" scale;</li><li>
+ Fluent in Portuguese;</li><li>
+ Perform Calibrations and tests of electric equipment;</li><li>
+ Automation of calibrations/tests of electric equipment;</li><li>
+ Excel advanced, Word, Power Point, Access;</li><li>
+ Inkscape (Similar to Corel Draw);</li><li>
+ MSProject;</li><li>
+ AutoCAD;</li><li>
+ Office Automation;</li><li>
+ Automation of reports and budget;</li><li>
+ Data Acquisition and processing.</li><li>
+ Maintenance of electric equipment;</li><li>
+ Preventive maintenance;</li><li>
+ Corrective maintenance.</li><li>
+ Electronic Projects;</li><li>
+ Prototype Circuit Board (PCB)-Amateur;</li><li>
+ Projects with Arduíno and Raspberry;</li><li>
+ Robotics;</li><li>
+ Servo motor control;</li><li>
+ Ethernet</li><li>
+ Web Server;</li><li>
+ GSM; </li><li>
+ AT Commands; </li><li> LCD;</li><li>
+ HTML;</li><li>
+ PHP;</li><li>
+ CSS</li><li>
+ MySQL;</li><li>
+ Auto-it Programming (Scripts); </li><li> LabVIEW;</li><li>
+ VBA;</li><li>
+ C++;</li><li>
+ Python;</li><li>
+ Industrial networks;</li><li>
+ RS-485;</li><li> RS-232; </li><li> GPIB;</li><li>
+ Zigbee;</li><li>
+ Protocols;</li><li> Modbus-RTU;</li><li>
+ Projects with LabVIEW;</li><li>
+ Advanced Control with Fuzzy Logic; </li><li> Data Acquisition and processing.</li>
+      </ul>
+      </div>
+      </p>
+    </div>
+
+
+    <div class="intro">
+        <h1>ACADEMIC FORMATION</h1>
+        
+       
+    </div>
+    <div class="content">
+        <p class="text">
+            <div class="newspaper" >
+            <ul>
+                <li>
+        Industrial Automation Technician 
+        SENAI Anchieta.
+</li><li>
+ Technologist in Industrial Automation 
+ FATEC-SBC.</li><li>
+MBA in Industrial Automation
+ University of São Paulo (PECE).</li><li>
+Master's Degree in Electrical Engineer, emphasis in Industrial Automation (Conclusion in jun/2021). 
+Polytechnic of the University of São Paulo.</li>
+        </ul>
+        
+        </div>
+        </p>
+    </div>
     
-    <section>
-      <h2>
-      Skills
-      </h2>
-    </section>
     
-    <section>
-      <h2>
-      Education
-      </h2>
-    </section>
+        <div class="intro">
+        <h1>WORK EXPERIENCE</h1>
+        
+    </div>
+    <div class="content">
+        <p class="text"> 
+        <div class="newspaper" >
+            <ul>
+                <li>
+     Scientific Division of Electrical Systems Technology of Institute of Energy and Environment of the University of São Paulo;</li><li>
+• Site: http://iee.usp.br/</li><li>
+• 2010/Actual;</li><li>
+• Type of Contract: Government Employee;</li><li>
+• Functional Placement: Laboratory Technician </li><li> Attribution:</li><li>
+• Calibration and tests of Potential Transformers, Current Transformer, Hipot and Integrated Energy Measurement Systems (TP + TC + Meter + Telemetry);</li><li>
+• Automation of the Test Current Transformers Accuracy, with fuzzy logic control system;</li><li>
+• Development of a software for the automation of multimeter Calibration in (AC/DC Voltage and Current,
+Resistance, Frequency and Power).</li><li>
+• Development of Instrument calibration management software.</li><li>
+• Sequential Higher Education Association;</li><li>
+• Site: http://www.escolasequencial.com.br</li><li>
+• 2010/2011;</li><li>
+• Type of contract: Visiting Professor;</li><li>
+• Functional Placement: Applied Electronics Professor;  Attribution:</li><li>
+• Provision of services in the educational area, teaching the discipline of Applied Electronics at the Technical Level.</li><li>
+• São Paulo State Basic Sanitation Company</li><li>
+• Site: http://site.sabesp.com.br/site/Default.aspx  2009/2010;</li><li>
+• Type of Contract: Government Employee;</li><li>
+• Functional Placement: Electrical Technician.</li><li>
+• Attribution:</li><li>
+• Performing electrical maintenance services on high, medium and low voltage equipment, machines and installations such as: electromechanical assemblies, high, medium and low voltage power inputs and maintenance in the various pumping, treatment and adduction facilities of sanitation systems.</li><li>
+• Plenicor</li><li>
+• Site: http://www.plenicor.com.br</li><li>
+• 2007/2008;</li><li>
+• Type of contract: Employee;</li><li>
+• Functional Placement: Electrical and Electronics Technician Assistant; </li><li> Attribution:</li><li>
+• Production process control, inventory control, risk analysis (Containment plans and contingency errors in the production process), time management and quality control.</li><li>
+• Mc Donald’s (Arcos Dourados Comércio de Alimentos Ltda)</li><li>
+• Site: https://www.mcdonalds.com.br/quem-somos/detalhes-companhia </li><li> 2004/2006
+• Type of contract: Employee;</li><li>
+• Functional Placement: Maintenance Electrician.</li><li>
+• Attribution:</li><li>
+• Preventive and corrective maintenance of electrical equipment and installations. (Fryers, electric plates,
+electric panels ).</li></ul></div>
+        </p>
+    </div>
     
-    <section>
-      <h2>
-      Work experience 2
-      </h2>
-    </section>
     
-  </body>
+    
+            <div class="intro">
+        <h1>EXTRACURRICULAR COURSES</h1>
+        
+    </div>
+    <div class="content">
+        <p class="text">
+               <div class="newspaper" >
+            <ul>
+                <li>
+       Calculation of measurement uncertainty- INPE (National Institute for Space Research)
+       </li><li>
+ Principles of Operation, Applicability and Temperature Sensor Calibration Metrology - ECIL </li><li> University extension course in the diffusion modality: Power Transformer Tests - USP
+</li><li> Virtual Instrumentation in Performance and Safety Tests - IEE / USP
+</li><li> LabVIEW Real Time I Course - National Instruments
+</li><li> LabVIEW Real Time II Course - National Instruments
+
+ </li><li> Basic Electroelectronics (SENAI)
+</li><li> Industrial Electrical Installation (SENAI)
+</li><li> Electrical Commands (SENAI)</li><li> PLC- Programmable Logic Commands (SENAI)
+</li><li> Windows, Word, Excel, PowerPoint, Corel Draw, PageMaker, Linux. (Cedaspy / SOS Computers)
+</li><li> Visual Basic, C ++, Assembler and LabView. (Cedaspy / SENAI / USP- IEE)
+</li><li> Professional Basic Behavior, Professional Posture, Problem Solving, Management of Time and Leadership. (CIEE) </li><li> University extension in Scientific Initiation
+</li><li> University Monitoring in the Electrical discipline.</li></ul></div>
+        </p>
+    </div>
+    
+    
+    
+            <div class="intro">
+        <h1>PROJECTS</h1>
+        
+    </div>
+    <div class="content">
+        <p class="text">
+       
+        </p>
+    </div>
+    
+    <!--
+            <div class="intro">
+        <h1>WORK EXPERIENCE</h1>
+        
+    </div>
+    <div class="content">
+        <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dicta? Esse modi inventore, a doloremque dolores aliquam reprehenderit fugit rem!
+        </p>
+    </div>
+    
+    -->
+<div class="wrapper">
+  <p>
+     <img src="myself.jpeg"  width="40%">
+      <h1> HCMAMEDE</h1><p>TORONTO, ON, CANADA HCMAMEDE@HOTMAIL.COM</p>
+</div
+
+    </body>
 </html>
